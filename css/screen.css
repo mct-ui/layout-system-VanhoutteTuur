@@ -208,7 +208,6 @@ a:focus {
 
 .o-layout--gutter {
     margin: 0 -12px;
-    
 }
 
 .o-layout--gutter > .o-layout__item {
@@ -234,7 +233,6 @@ a:focus {
 /* reverse horizontal row modifier */
 
 .o-layout--row-reverse {
-    
 }
 
 /* Horizontal alignment modifiers*/
@@ -361,7 +359,7 @@ a:focus {
 }
 
 .u-2-of-3 {
-    flex-basis: calc(2 * 100% / 3 ) !important;
+    flex-basis: calc(2 * 100% / 3) !important;
 }
 
 .u-1-of-4 {
@@ -398,21 +396,185 @@ a:focus {
 
 @media (min-width: 576px) {
     .u-1-of-2-bp1 {
+        flex-basis: calc(100% / 2) !important;
+    }
+
+    .u-1-of-3-bp1 {
+        flex-basis: calc(100% / 3) !important;
+    }
+
+    .u-2-of-3-bp1 {
+        flex-basis: calc(2 * 100% / 3) !important;
+    }
+
+    .u-1-of-4-bp1 {
+        flex-basis: calc(100% / 4) !important;
+    }
+
+    .u-3-of-4-bp1 {
+        flex-basis: calc(3 * 100% / 4) !important;
+    }
+
+    .u-1-of-5-bp1 {
+        flex-basis: calc(100% / 5) !important;
+    }
+
+    .u-2-of-5-bp1 {
+        flex-basis: calc(2 * 100% / 5) !important;
+    }
+
+    .u-3-of-5-bp1 {
+        flex-basis: calc(3 * 100% / 5) !important;
+    }
+
+    .u-4-of-5-bp1 {
+        flex-basis: calc(4 * 100% / 5) !important;
+    }
+
+    .u-1-of-6-bp1 {
+        flex-basis: calc(100% / 6) !important;
+    }
+
+    .u-5-of-6-bp1 {
+        flex-basis: calc(5 * 100% / 6) !important;
     }
 }
 
 @media (min-width: 768px) {
     .u-1-of-2-bp2 {
+        flex-basis: calc(100% / 2) !important;
+    }
+
+    .u-1-of-3-bp2 {
+        flex-basis: calc(100% / 3) !important;
+    }
+
+    .u-2-of-3-bp2 {
+        flex-basis: calc(2 * 100% / 3) !important;
+    }
+
+    .u-1-of-4-bp2 {
+        flex-basis: calc(100% / 4) !important;
+    }
+
+    .u-3-of-4-bp2 {
+        flex-basis: calc(3 * 100% / 4) !important;
+    }
+
+    .u-1-of-5-bp2 {
+        flex-basis: calc(100% / 5) !important;
+    }
+
+    .u-2-of-5-bp2 {
+        flex-basis: calc(2 * 100% / 5) !important;
+    }
+
+    .u-3-of-5-bp2 {
+        flex-basis: calc(3 * 100% / 5) !important;
+    }
+
+    .u-4-of-5-bp2 {
+        flex-basis: calc(4 * 100% / 5) !important;
+    }
+
+    .u-1-of-6-bp2 {
+        flex-basis: calc(100% / 6) !important;
+    }
+
+    .u-5-of-6-bp2 {
+        flex-basis: calc(5 * 100% / 6) !important;
     }
 }
 
 @media (min-width: 992px) {
     .u-1-of-2-bp3 {
+        flex-basis: calc(100% / 2) !important;
+    }
+
+    .u-1-of-3-bp3 {
+        flex-basis: calc(100% / 3) !important;
+    }
+
+    .u-2-of-3-bp3 {
+        flex-basis: calc(2 * 100% / 3) !important;
+    }
+
+    .u-1-of-4-bp3 {
+        flex-basis: calc(100% / 4) !important;
+    }
+
+    .u-3-of-4-bp3 {
+        flex-basis: calc(3 * 100% / 4) !important;
+    }
+
+    .u-1-of-5-bp3 {
+        flex-basis: calc(100% / 5) !important;
+    }
+
+    .u-2-of-5-bp3 {
+        flex-basis: calc(2 * 100% / 5) !important;
+    }
+
+    .u-3-of-5-bp3 {
+        flex-basis: calc(3 * 100% / 5) !important;
+    }
+
+    .u-4-of-5-bp3 {
+        flex-basis: calc(4 * 100% / 5) !important;
+    }
+
+    .u-1-of-6-bp3 {
+        flex-basis: calc(100% / 6) !important;
+    }
+
+    .u-5-of-6-bp3 {
+        flex-basis: calc(5 * 100% / 6) !important;
     }
 }
 
 @media (min-width: 1200px) {
     .u-1-of-2-bp4 {
+        flex-basis: calc(100% / 2) !important;
+    }
+
+    .u-1-of-3-bp4 {
+        flex-basis: calc(100% / 3) !important;
+    }
+
+    .u-2-of-3-bp4 {
+        flex-basis: calc(2 * 100% / 3) !important;
+    }
+
+    .u-1-of-4-bp4 {
+        flex-basis: calc(100% / 4) !important;
+    }
+
+    .u-3-of-4-bp4 {
+        flex-basis: calc(3 * 100% / 4) !important;
+    }
+
+    .u-1-of-5-bp4 {
+        flex-basis: calc(100% / 5) !important;
+    }
+
+    .u-2-of-5-bp4 {
+        flex-basis: calc(2 * 100% / 5) !important;
+    }
+
+    .u-3-of-5-bp4 {
+        flex-basis: calc(3 * 100% / 5) !important;
+    }
+
+    .u-4-of-5-bp4 {
+        flex-basis: calc(4 * 100% / 5) !important;
+    }
+
+    .u-1-of-6-bp4 {
+        flex-basis: calc(100% / 6) !important;
+    }
+
+    .u-5-of-6-bp4 {
+        flex-basis: calc(5 * 100% / 6) !important;
     }
 }
 
