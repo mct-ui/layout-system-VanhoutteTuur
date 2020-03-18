@@ -12,6 +12,10 @@
     Global page styles
 */
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 16px;
     line-height: 1.5;
@@ -220,15 +224,17 @@ a:focus {
 }
 
 .o-layout--gutter-lg {
-
+    margin: 0 -24px;
 }
 
 .o-layout--gutter-lg > .o-layout__item {
+    padding: 0 24px;
 }
 
 /* reverse horizontal row modifier */
 
 .o-layout--row-reverse {
+    
 }
 
 /* Horizontal alignment modifiers*/
@@ -347,47 +353,47 @@ a:focus {
 }
 
 .u-1-of-2 {
-    flex-basis: calc(100% / 2 - 24px) !important;
+    flex-basis: calc(100% / 2) !important;
 }
 
 .u-1-of-3 {
-    flex-basis: calc(100% / 3 - 24px) !important;
+    flex-basis: calc(100% / 3) !important;
 }
 
 .u-2-of-3 {
-    flex-basis: calc(2 * 100% / 3 - 24px) !important;
+    flex-basis: calc(2 * 100% / 3 ) !important;
 }
 
 .u-1-of-4 {
-    flex-basis: calc(100% / 4 - 24px) !important;
+    flex-basis: calc(100% / 4) !important;
 }
 
 .u-3-of-4 {
-    flex-basis: calc(3 * 100% / 4 - 24px) !important;
+    flex-basis: calc(3 * 100% / 4) !important;
 }
 
 .u-1-of-5 {
-    flex-basis: calc(100% / 5 - 24px) !important;
+    flex-basis: calc(100% / 5) !important;
 }
 
 .u-2-of-5 {
-    flex-basis: calc(2 * 100% / 5 - 24px) !important;
+    flex-basis: calc(2 * 100% / 5) !important;
 }
 
 .u-3-of-5 {
-    flex-basis: calc(3 * 100% / 5 - 24px) !important;
+    flex-basis: calc(3 * 100% / 5) !important;
 }
 
 .u-4-of-5 {
-    flex-basis: calc(4 * 100% / 5 - 24px) !important;
+    flex-basis: calc(4 * 100% / 5) !important;
 }
 
 .u-1-of-6 {
-    flex-basis: calc(100% / 6 - 24px) !important;
+    flex-basis: calc(100% / 6) !important;
 }
 
 .u-5-of-6 {
-    flex-basis: calc(5 * 100% / 6 - 24px) !important;
+    flex-basis: calc(5 * 100% / 6) !important;
 }
 
 @media (min-width: 576px) {
