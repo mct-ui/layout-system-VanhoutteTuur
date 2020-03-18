@@ -184,7 +184,7 @@ a:focus {
 
 
 .o-container {
-    
+    margin: auto;
     max-width: 90em;
 }
 
