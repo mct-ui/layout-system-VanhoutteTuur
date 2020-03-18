@@ -167,6 +167,22 @@ a:focus {
     Object description
 */
 
+.o-row {
+    padding: 24px 24px 0;
+    display: flow-root;
+}
+
+.o-row--primary {
+    background-color: #e85e00;
+    color: white;
+}
+
+.o-row--dark {
+    background-color: #494c53;
+    color: white;
+}
+
+
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
@@ -217,9 +233,12 @@ a:focus {
 @media (min-width: 576px) {}
 */
 
-/* Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
-*/
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .o-row--lg {
+        padding: 48px 48px 0;
+    }
+}
 
 /* Large devices (landscape tablets, desktops, 992px and up)
 @media (min-width: 992px) {}
